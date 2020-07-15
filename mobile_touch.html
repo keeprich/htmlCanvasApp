@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="shortcut icon" href="net.jpg" type="image/x-icon">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Mobile Canvas</title>
@@ -13,6 +14,25 @@ body, html {
   margin: 0;
 }
 
+.nav_brand{
+    transition: transform .8s;
+      width: 150px;
+      height: 150px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+}
+
+.nav_brand:hover{
+    transform: scale(1.1);
+}
+
+
+nav{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
     </style>
 
 </head>
@@ -21,7 +41,10 @@ body, html {
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Navbar</a>
+        <a class="navbar-brand" href="index.html">
+            <img class="nav_brand" src="net.jpg" alt="">
+
+        </a>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">

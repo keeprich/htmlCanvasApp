@@ -7,3 +7,26 @@
   .color-picker {
     margin: 1rem 1rem 0 1rem;
   }
+
+  .nav_brand{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: transform .8s;
+    -webkit-transition: transform .8s;
+    -moz-transition: transform .8s;
+    -ms-transition: transform .8s;
+    -o-transition: transform .8s;
+}
+
+.nav_brand:hover{
+    transform: scale(1.1);
+}
+
+nav{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
